@@ -1,2 +1,2 @@
-# Sitio Web de VT Servicios Inform
+# Sitio Web de VT Servicios
 Sitio web del emprendimiento
