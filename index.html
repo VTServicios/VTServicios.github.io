@@ -202,24 +202,30 @@ transparencia
                         <p>Espacio para el envío de mensajes.</p>
                      </div>
                   </div>
+                 
+                 <form action="https://formspree.io/f/xbjezavl" method="POST">
+                       
                   <div class="row space-between">
                      <div class="col-6">
-                        <input type="text" class="form-control" name="" placeholder="Nombre" />
+                        <input type="text" class="form-control" name="name" placeholder="Nombre" />
                      </div>
                      <div class="col-6">
-                        <input type="text" class="form-control" name="" placeholder="E-mail" />
+                        <input type="email" class="form-control" name="email" placeholder="E-mail" />
                      </div>
                   </div>
                   <div class="row">
                      <div class="col-12">
-                        <textarea class="form-control" placeholder="El mensaje"></textarea>
+                        <textarea class="form-control" name="message" placeholder="El mensaje"></textarea>
                      </div>
                   </div>
                   <div class="row">
                      <div class="button btn">
                         <a href="#">Seguimos en contacto</a>
+                        <button type="submit">Enviar</button>
                      </div>
-                  </div>
+                   </div> 
+                 </form>
+                 
                </div>
             </div>
          </div>
